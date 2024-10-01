@@ -13,10 +13,12 @@ const Tab3: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 3</IonTitle>
+            <IonTitle size="large">
+              Hola mundo! Tab 3
+            </IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 3 page" />
+        <ExploreContainer name="Esta es la tab 3 para el proyecto Hola Mundo" />
       </IonContent>
     </IonPage>
   );
